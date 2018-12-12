@@ -6,8 +6,9 @@
  * Time: 18:45
  */
 
-namespace StompMQ;
+namespace mikek8\components;
 
+use StompMQ\TraitStompMQ;
 use yii\base\Component;
 
 class StompMQ extends Component
