@@ -1,0 +1,30 @@
+{
+    "name": "mikek8/yii2-stomp-mq",
+    "description": "Easy Stomp MQ as component for yii2",
+    "keywords": [
+        "stomp",
+        "activemq",
+        "rabbitmq",
+        "apollomq",
+        "yii2"
+    ],
+    "type": "library",
+    "require": {
+        "php": "^7.1",
+        "mikek8/stomp-mq": "^1.0",
+        "stomp-php/stomp-php": "^4.4",
+        "yiisoft/yii2": "^2.0.13"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Ekaterinichev Mikhail",
+            "email": "ema@equifax.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "StompMQ\\": "./"
+        }
+    }
+}
