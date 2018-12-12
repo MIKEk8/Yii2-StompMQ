@@ -11,7 +11,7 @@
     "type": "library",
     "require": {
         "php": "^7.1",
-        "mikek8/stomp-mq": "^1.0",
+        "mikek8/stomp-mq": "^1.0.2",
         "stomp-php/stomp-php": "^4.4",
         "yiisoft/yii2": "^2.0.13"
     },

@@ -8,7 +8,7 @@
 
 namespace mikek8\components;
 
-use StompMQ\TraitStompMQ;
+use mikek8\traits\TraitStompMQ;
 use yii\base\Component;
 
 class StompMQ extends Component
@@ -23,5 +23,10 @@ class StompMQ extends Component
     public function __set($name, $value)
     {
         parent::__set($name, $value);
+    }
+
+    public function __isset($name)
+    {
+        return parent::__isset($name);
     }
 }
